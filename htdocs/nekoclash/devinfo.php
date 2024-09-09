@@ -81,7 +81,7 @@ $cpuFamily = preg_match('/^CPU family:\s+(.+)/m', $cpuInfo, $matches);
             background: url('/nekoclash/assets/img/3.svg') no-repeat center center;
             background-size: cover;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: flex;
+            display: none;
             flex-direction: column;
             align-items: center;
             border-radius: 50%;
